@@ -1,0 +1,90 @@
+/* 
+    Document   : contact
+    Created on : 30 avr. 2011, 15:34:58
+    Author     : Romain
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+#priseContact{
+    width:550px;
+    margin-left: 50px;
+}
+form label{
+	display:block;
+        padding-top: 10px;
+	}
+
+form input.text, form textarea{
+	width:100%;
+	border:1px #E0E0E0 solid;
+	color:#666;
+	padding:4px 5px;
+	font:12px Arial,san-serif;
+	background-color: #F3F3F3;
+	}
+
+form input.text:hover, form textarea:hover{
+	border:1px #E0E0E0 solid;
+	}
+
+form input.text:focus, form textarea:focus{
+	border:1px #CCC solid;
+	color:#666;
+	}
+
+form input.button{
+	float: left;
+	margin-right: 6px;
+	padding: 5px 20px 5px 20px;
+	background: #4C4D51;
+	border: 1px #575C5F solid;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+	color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 8px;
+	}
+form input.button:hover{
+        text-decoration: none;
+	background: #31a1ff;
+	border: 1px #E0E0E0 solid;
+    }
+
+* html form input.text,
+
+* html form textarea{
+	border-color: #CCC;
+	color:#333;
+	}
+
+.form_message{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 28px;
+    left: 20%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 60%;
+}
+.form_message_ok{
+    background-color: #85C380;
+    border: 2px solid #72A86D;
+    border-top: none;
+}
+.form_message_nok{
+     background-color: #FBACA0;
+     border: 2px solid #FC7D6C;
+     border-top: none;
+}
+.form_message_nok a{
+    color: #31a1ff;
+}
